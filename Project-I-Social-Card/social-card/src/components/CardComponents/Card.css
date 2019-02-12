@@ -1,1 +1,31 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+    width: 98%;
+    display: flex;
+    flex-direction: column; 
+    border: 2px solid purple;
+    margin: 0 auto;   
+}
+
+/* .cardContainer, .cardImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: 50%;
+    margin-left: 100px;
+} */
+
+.cardContainer img {
+    width: 70%;
+    display: flex;
+    margin-left: 210px;    
+}
+
+.cardContent {
+    font-size: 1.6rem;
+    margin-left: 210px;
+    border: 1px solid gray;
+    width: 65%;
+    padding: 20px;
+}
