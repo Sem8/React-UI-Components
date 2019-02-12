@@ -5,9 +5,12 @@ import NumberButton from '../ButtonComponents/NumberButton';
 
 
 
-function CalculatorDisplay() {
+const CalculatorDisplay = props => {
     return (
         <div className='calculatorDisplay'>
+            <div className='calculatorOutput'>
+                {props.Numbers.textZero}
+            </div>
             <NumberButton eachNumber={props.Numbers}/>
             
         </div>
