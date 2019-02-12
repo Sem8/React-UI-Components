@@ -28,4 +28,11 @@
     border: 1px solid gray;
     width: 65%;
     padding: 20px;
+    color: black;
+        
 }
+
+a {
+    text-decoration: none;
+}
+
