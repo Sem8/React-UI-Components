@@ -1,22 +1,24 @@
 import React from 'react';
 import './Button.css';
 
-const buttonStyle = {
-
-}
 
 const NumberButton = props => {
     return (        
             <button className='buttonStyle'>
-                <div>{props.eachNumber.textSeven}</div>
-                <div>{props.eachNumber.textEight}</div>
-                <div>{props.eachNumber.textNine}</div>
-                <div>{props.eachNumber.textFour}</div>
-                <div>{props.eachNumber.textFive}</div>
-                <div>{props.eachNumber.textSix}</div>
-                <div>{props.eachNumber.textOne}</div>
-                <div>{props.eachNumber.textTwo}</div>
-                <div>{props.eachNumber.textThree}</div>         
+                <div className='clearDiv'>{props.eachNumber.textClear}</div>
+                <div className='numberDiv'>
+                    <div className='anumberDiv'>{props.eachNumber.textSeven}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textEight}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textNine}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textFour}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textFive}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textSix}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textOne}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textTwo}</div>
+                    <div className='anumberDiv'>{props.eachNumber.textThree}</div>                    
+                </div>
+                <div className='zeroDiv'>{props.eachNumber.textZero}</div>
+                      
             </button> 
             );
         }

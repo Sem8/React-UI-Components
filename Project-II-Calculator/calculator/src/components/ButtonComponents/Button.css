@@ -1,0 +1,34 @@
+
+.calculatorOutput {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+.buttonStyle, .clearDiv, .zeroDiv {
+    width: 90%;
+    height: 50px;
+
+}
+
+/* .buttonStyle, .numberDiv {
+    width: 20%;
+    height: 50px;
+} */
+
+.actionButton {
+    width: 10%;    
+}
+
+.numberDiv {
+    border: 1px solid black;    
+    display: flex;
+    flex-wrap: wrap;
+}
+.anumberDiv {
+    border: 1px solid black;
+    width: 32%;
+    height: 50px;
+    background-color: silver; 
+}

@@ -2,6 +2,12 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
+// const buttonStyle = {
+//   .padding: 20px;
+
+// }
+
+
 const CalculatorText = {
   textZero: 0,
   textOne: 1,
