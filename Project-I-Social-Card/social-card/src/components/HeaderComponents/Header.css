@@ -1,1 +1,47 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    border: 2px solid red;
+    width: 98%;
+    margin: 0 auto;   
+      
+}
+
+.headerContainer img {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    color: white;    
+    margin: 10px;
+}
+
+.lambdaImg {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink; 
+    border-radius: 100px;
+}
+
+
+
+.headerTitle {
+    display: flex;
+    flex-wrap: wrap;    
+    border: 2px solid #00FFFF; 
+    font-size: 2.2rem;   
+    
+}
+
+.headerTitle h2 {
+    padding: 5px;
+}
+.headerTitle h4 {
+    color: gray;
+    padding: 5px;    
+}
+
+.headerTitle h4:nth-child(3) {
+    display: list-item;                                                        
+    list-style-type: disc;       
+    list-style-position: inside;
+} 
