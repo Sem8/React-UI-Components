@@ -1,6 +1,11 @@
+html {
+    font-size: 62.5%;
+}
+
 .calculatorDiv {
     border: 2px solid gray;
     width: 500px;
     height: 500px;   
     margin: 0 auto;
+    font-size: 2.5rem;
 }

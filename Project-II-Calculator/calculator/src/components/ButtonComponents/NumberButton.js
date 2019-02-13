@@ -17,8 +17,7 @@ const NumberButton = props => {
                     <div className='anumberDiv'>{props.eachNumber.textTwo}</div>
                     <div className='anumberDiv'>{props.eachNumber.textThree}</div>                    
                 </div>
-                <div className='zeroDiv'>{props.eachNumber.textZero}</div>
-                      
+                <div className='zeroDiv'>{props.eachNumber.textZero}</div>                      
             </button> 
             );
         }
