@@ -7,21 +7,28 @@
     font-size: 5.5rem;
     text-align: right; 
 }
+
+.buttonStyle {
+    border: none;
+    
+}
 .buttonStyle, .actionButton {
     font-size: 3.5rem;
     font-weight: bold;
 }
 
 .buttonStyle, .clearDiv {
-    width: 90%;
+    width: 80%;
     height: 50px;
     background-color: white;
+    text-align: center
 }
 
 .buttonStyle, .zeroDiv {
     /* border: 2px solid black; */
-    width: 90%;
+    width: 80%;
     height: 100%;
+    text-align: center;
 }
 
 /* .buttonStyle, .numberDiv {
@@ -38,8 +45,8 @@
 }
 .anumberDiv {
     border: 2px solid gray;
-    width: 30%;
-    height: 85px;
+    width: 32%;
+    height: 75px;
     margin: 0 auto;
     background-color: white; 
     align-items: center;
@@ -48,15 +55,15 @@
 }
 
 .actionButton {
-    border: 2px solid gray;
-    width: 10%;
+    border: none;
+    width: 20%;
     height: 400px;       
 }
 
 .actionButton div {
     border: 2px solid gray;    
     width: 100%;
-    margin-left: -10px;
+    margin-left: -8px;
     padding: 5px;
     display: flex;
     flex-direction: column;
