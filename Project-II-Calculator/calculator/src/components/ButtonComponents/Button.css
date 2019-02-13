@@ -4,9 +4,12 @@
     height: 100px;
     color: white;
     background-color: black;
+    font-size: 5.5rem;
+    text-align: right; 
 }
 .buttonStyle, .actionButton {
     font-size: 3.5rem;
+    font-weight: bold;
 }
 
 .buttonStyle, .clearDiv {
@@ -26,20 +29,22 @@
     height: 50px;
 } */
 
-
-
 .numberDiv {
-    border: 1px solid black;    
+    /* border: 1px solid black;     */
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
     
 }
 .anumberDiv {
-    border: 1px solid black;
-    width: 32%;
+    border: 2px solid gray;
+    width: 30%;
     height: 85px;
     margin: 0 auto;
-    background-color: silver; 
+    background-color: white; 
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 .actionButton {
@@ -56,6 +61,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    height: 65px;
+    color: white;
+    background-color: maroon;
     
 }
